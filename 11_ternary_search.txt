@@ -1,0 +1,3 @@
+Binary Search: Complexidade: O(log n)
+Ternary Search: Complexidade: O(log₃ n)
+Por conta disso, o Ternary Search pode ser ligeiramente mais eficiente que o Binary Search em grandes listas.

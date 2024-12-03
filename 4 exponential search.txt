@@ -1,0 +1,2 @@
+O Exponential Search combina o Jump Search e o Binary Search. Ele começa tentando localizar o bloco onde o elemento pode estar, saltando exponencialmente, e depois usa o Binary Search dentro desse bloco. O Exponential Search tem uma complexidade de O(log n) para a parte de salto e O(log n) para a busca binária. Ou seja, em listas bem grandes ele tem um desempenho melhor do que o Binary Search, porém em listas pequenas ele apresenta um desempenho inferior a outros algoritmos de busca.
+

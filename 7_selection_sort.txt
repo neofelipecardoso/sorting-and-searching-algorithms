@@ -1,0 +1,2 @@
+O Selection Sort tem complexidade O(n²), onde n é o número de elementos.
+Em listas pequenas, é eficiente o suficiente, mas em listas grandes, ele se torna lento comparado a outros algoritmos mais eficientes, como Merge Sort e Quick Sort.

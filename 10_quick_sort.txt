@@ -1,0 +1,2 @@
+Listas quase ordenadas: O Quick Sort tende a ter um desempenho ruim (O(n²)) em listas quase ordenadas, especialmente quando o pivô é escolhido de forma ineficaz (como o primeiro ou o último elemento).
+Listas completamente desordenadas: Em listas completamente desordenadas, o Quick Sort geralmente tem um bom desempenho com uma complexidade média de O(n log n), mas se o pivô for escolhido de forma ineficiente, a complexidade pode aumentar para O(n²).

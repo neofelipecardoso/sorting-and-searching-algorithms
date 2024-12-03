@@ -1,0 +1,1 @@
+ele divide o problema em subproblemas menores, resolve esses subproblemas e, depois, combina as soluções para obter a solução final.

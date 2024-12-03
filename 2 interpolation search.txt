@@ -1,0 +1,1 @@
+Ele é mais eficiente que o Binary Search quando a lista está uniforme, com valores não tão discrepantes. Isso porque ele usa a fórmula de interpolação para tentar prever onde que o valor se encontrará na lista.

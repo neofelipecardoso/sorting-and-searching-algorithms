@@ -1,0 +1,3 @@
+Quando usamos base 10, estamos lidando com números decimais, e cada "dígito" é um valor entre 0 e 9. Se estivermos lidando com base 2 (binário), por exemplo, cada "dígito" seria 0 ou 1, o que tornaria a distribuição e contagem mais simples. A mudança na base afetaria tanto a forma como os números são "particionados" nos baldes, quanto os critérios de ordenação (para bases diferentes de 10).
+
+Para base 2, o algoritmo trabalharia apenas com bits (0 ou 1) em cada posição. A implementação geral do Radix Sort, como mostrado acima, pode ser modificada para qualquer base alterando a maneira de lidar com os dígitos (em vez de 0-9, usaríamos 0-1 para base 2).

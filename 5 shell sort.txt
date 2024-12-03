@@ -1,0 +1,4 @@
+Shell: Inicia com um grande intervalo e vai diminuindo.
+Knuth: 3^k - 1
+Hibbard: 2^k - 1
+Hibbard é O(N^1.5), Shell é O(N^2). Ou seja, se o tamanho da lista for maior, provavelmente o Hibbard vai ter um desempenho maior.

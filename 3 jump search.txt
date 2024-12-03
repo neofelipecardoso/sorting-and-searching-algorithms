@@ -1,0 +1,2 @@
+O tamanho ideal da lista, que divide de forma igualitária o número de saltos com a quantidade de valores dentro de cada bloco, é √n.
+O Jump Search tem uma complexidade de tempo de O(√n), enquanto o Binary Search tem uma complexidade de O(log n). Em listas pequenas ou médias, o Jump Search pode ser comparável ao Binary Search, mas em listas muito grandes, o Binary Search tende a ser mais eficiente devido à sua complexidade menor.

@@ -1,0 +1,9 @@
+Merge Sort, Bubble Sort, Insertion Sort são estáveis.
+Quick Sort, Selection Sort não são estáveis.
+
+Exemplo de saída do merge sort:
+Alunos ordenados: [(72, 'Bob'), (85, 'Alice'), (85, 'Charlie'), (92, 'David')]
+Exemplo de saída do quick sort:
+Alunos ordenados: [(72, 'Bob'), (85, 'Charlie'), (85, 'Alice'), (92, 'David')]
+
+Como você pode perceber, a ordem dos elementos [1] e [2] estão diferente. O quick sort não preservou a ordem padrão dos elementos com o mesmo valor, por isso ele é instável. A estabilidade é importante quando você precisa realizar múltiplas ordenações consecutivas em dados e deseja que a ordem relativa de elementos iguais seja preservada. Um exemplo típico é quando se faz uma ordenação por várias chaves, como ordenar primeiro por nome e depois por idade, em que a estabilidade é crucial para garantir que, após ordenar por idade, a ordem dos nomes seja mantida.
